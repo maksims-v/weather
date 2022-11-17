@@ -1,0 +1,1 @@
+ export const FORM = document.querySelector('form');

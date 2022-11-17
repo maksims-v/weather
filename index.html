@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The weather app</title>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="index.html"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <form class="search-form">
+                <input type="text" class="search__input" placeholder="Enter the city">
+                <button class="search__btn"></button>
+            </form>
+            <div class="main-box">
+                <div class="main-box__left">
+                    <div class="main-tabs__body">
+                        <div class="weather-now main-tabs__block" id="tab_1">
+                            <p class="weather-now__temperature">
+
+                            </p>
+                            <img class="weather-now__img" src="./img/04d.png" alt="cloud img">
+                            <div class="weather-now__like">
+                                <h3 class="weather-title city">
+
+                                </h3>
+                                <button class="weather-now__btn"></button>
+                            </div>
+                        </div>
+
+                        <div class="weather-details main-tabs__block" id="tab_2">
+                            <h3 class="weather-title weather-details__title city">
+
+                            </h3>
+                            <ul class="weather-detail__list">
+                                <li class="weather-detail__list-item">
+                                    Temperature: <span class="detail-temperature">14°</span>
+                                </li>
+                                <li class="weather-detail__list-item">
+                                    Feels like: <span class="detail-feels_like">10°</span>
+                                </li>
+                                <li class="weather-detail__list-item">
+                                    Weather: <span class="detail-weather">Clouds</span>
+                                </li>
+                                <li class="weather-detail__list-item">
+                                    Sunrise: <span class="detail-sunrise">03:21</span>
+                                </li>
+                                <li class="weather-detail__list-item">
+                                    Sunset: <span class="detail-sunset">18:54</span>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="weather-forecast main-tabs__block" id="tab_3">
+                            <h3 class="weather-title weather-forecast__title city">
+
+                            </h3>
+                            <ul class="weather-forecast__list">
+                                <li class="weather-forecast__list-item">
+                                    <div class="weather-forecast__top">
+                                        <p class="weather-forecast__text">
+                                            <span class="forecast_day">17 </span><span class="forecast_month">
+                                                May</span>
+                                        </p>
+                                        <p class="weather-forecast__text">
+                                            12:00
+                                        </p>
+                                    </div>
+                                    <div class="weather-forecast__bottom">
+                                        <div class="weather-forecast__parameters">
+                                            <p class="weather-forecast__text">
+                                                Temperature:<span class="forecast_temperature">13°</span>
+                                            </p>
+                                            <p class="weather-forecast__text">
+                                                Feels like: <span class="forecast_feels_like_temp"> 10°</span>
+                                            </p>
+                                        </div>
+                                        <div class="weather-forecast__precipitation">
+                                            <p class="weather-forecast__text">
+                                                <span class="forecast_weather">Rain</span>
+                                            </p>
+                                            <img src="./img/rain.png" alt="weather icon" class="weather-forecast__img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="weather-forecast__list-item">
+                                    <div class="weather-forecast__top">
+                                        <p class="weather-forecast__text">
+                                            <span class="forecast_day">17 </span><span class="forecast_month">
+                                                May</span>
+                                        </p>
+                                        <p class="weather-forecast__text">
+                                            12:00
+                                        </p>
+                                    </div>
+                                    <div class="weather-forecast__bottom">
+                                        <div class="weather-forecast__parameters">
+                                            <p class="weather-forecast__text">
+                                                Temperature:<span class="forecast_temperature">13°</span>
+                                            </p>
+                                            <p class="weather-forecast__text">
+                                                Feels like: <span class="forecast_feels_like_temp"> 10°</span>
+                                            </p>
+                                        </div>
+                                        <div class="weather-forecast__precipitation">
+                                            <p class="weather-forecast__text">
+                                                <span class="forecast_weather">Rain</span>
+                                            </p>
+                                            <img src="./img/rain.png" alt="weather icon" class="weather-forecast__img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="weather-forecast__list-item">
+                                    <div class="weather-forecast__top">
+                                        <p class="weather-forecast__text">
+                                            <span class="forecast_day">17 </span><span class="forecast_month">
+                                                May</span>
+                                        </p>
+                                        <p class="weather-forecast__text">
+                                            12:00
+                                        </p>
+                                    </div>
+                                    <div class="weather-forecast__bottom">
+                                        <div class="weather-forecast__parameters">
+                                            <p class="weather-forecast__text">
+                                                Temperature:<span class="forecast_temperature">13°</span>
+                                            </p>
+                                            <p class="weather-forecast__text">
+                                                Feels like: <span class="forecast_feels_like_temp"> 10°</span>
+                                            </p>
+                                        </div>
+                                        <div class="weather-forecast__precipitation">
+                                            <p class="weather-forecast__text">
+                                                <span class="forecast_weather">Rain</span>
+                                            </p>
+                                            <img src="./img/rain.png" alt="weather icon" class="weather-forecast__img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="weather-forecast__list-item">
+                                    <div class="weather-forecast__top">
+                                        <p class="weather-forecast__text">
+                                            <span class="forecast_day">17 </span><span class="forecast_month">
+                                                May</span>
+                                        </p>
+                                        <p class="weather-forecast__text">
+                                            12:00
+                                        </p>
+                                    </div>
+                                    <div class="weather-forecast__bottom">
+                                        <div class="weather-forecast__parameters">
+                                            <p class="weather-forecast__text">
+                                                Temperature: <span class="forecast_temperature">13°</span>
+                                            </p>
+                                            <p class="weather-forecast__text">
+                                                Feels like: <span class="forecast_feels_like_temp"> 10°</span>
+                                            </p>
+                                        </div>
+                                        <div class="weather-forecast__precipitation">
+                                            <p class="weather-forecast__text">
+                                                <span class="forecast_weather">Rain</span>
+                                            </p>
+                                            <img src="./img/rain.png" alt="weather icon" class="weather-forecast__img">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="weather-forecast__list-item">
+                                    <div class="weather-forecast__top">
+                                        <p class="weather-forecast__text">
+                                            <span class="forecast_day">17 </span><span class="forecast_month">
+                                                May</span>
+                                        </p>
+                                        <p class="weather-forecast__text">
+                                            12:00
+                                        </p>
+                                    </div>
+                                    <div class="weather-forecast__bottom">
+                                        <div class="weather-forecast__parameters">
+                                            <p class="weather-forecast__text">
+                                                Temperature:<span class="forecast_temperature">13°</span>
+                                            </p>
+                                            <p class="weather-forecast__text">
+                                                Feels like: <span class="forecast_feels_like_temp"> 10°</span>
+                                            </p>
+                                        </div>
+                                        <div class="weather-forecast__precipitation">
+                                            <p class="weather-forecast__text">
+                                                <span class="forecast_weather">Rain</span>
+                                            </p>
+                                            <img src="./img/rain.png" alt="weather icon" class="weather-forecast__img">
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <nav class="main-tabs">
+                        <a class="main-tabs__item" href="#tab_1">
+                            Now
+                        </a>
+                        <a class="main-tabs__item" href="#tab_2">
+                            Details
+                        </a>
+                        <a class="main-tabs__item" href="#tab_3">
+                            Forecast
+                        </a>
+                    </nav>
+                </div>
+                <div class="main-box__right">
+                    <h2 class="main-box__right-title">
+                        Added Locations:
+                    </h2>
+                    <ul class="city-list favorite-city-list">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
